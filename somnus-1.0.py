@@ -133,7 +133,7 @@ async def gemini_command(interaction: discord.Interaction, prompt: str):
         # generate_content 為同步呼叫，使用 asyncio.to_thread 執行以避免阻塞
         response = await asyncio.to_thread(
             genai_client.models.generate_content,
-            model="gemini-2.0-flash",
+            model="gemini-2.5-flash",
             contents=conversation_prompt,
         )
         generated_text = response.text.strip()
