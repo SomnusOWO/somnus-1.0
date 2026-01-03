@@ -28,7 +28,7 @@ A Discord bot that integrates with Google GenAI (Gemini) to provide AI-powered c
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/whitember1107/somnus-1.0.git
+   git clone https://github.com/SomnusOWO/somnus-1.0.git
    cd somnus-1.0
    ```
 2. Install dependencies:
