@@ -57,7 +57,7 @@ class MyClient(discord.Client):
         self.synced = False
 
     async def on_ready(self):
-        print(f"Bot registered：{self.user}")
+        print(f"Bot registered: {self.user}")
         # 在這裡設定機器人的狀態與 Activity
         await self.change_presence(
             status=discord.Status.online,
